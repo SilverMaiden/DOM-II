@@ -62,3 +62,21 @@ intro.addEventListener("dblclick", (event) => {
 document.addEventListener("scroll", (event)=> {
     mainNav.style.backgroundColor = "purple";
 })
+
+
+//NINTH Event Listener Type
+
+let body = document.querySelector("body");
+
+document.addEventListener("contextmenu", (event) => {
+    body.style.backgroundColor = "orange";
+    body.style.color="white";
+    body.style.fontWeight= "700";
+    alert("YAAY I'm a menu!!");
+})
+
+//TENTH Event Listener Type
+
+document.addEventListener("copy", (event) => {
+    alert("You're trying to copy something??");
+})
